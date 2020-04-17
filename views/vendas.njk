@@ -1,0 +1,36 @@
+{% extends "index.njk" %}
+
+{% block content %}
+
+
+<form class="product" method="post" action="/estoque">
+    <h3>Vendas de Produtos </h3>
+    <div class="item">
+        <div>Produto</div>
+        <div>
+            <select name="produto" id="item-selecionado" placeholder="Selecionar o produto">
+                    <option value=""></option>
+                    <option value="scs">Pepino vidro P</option>
+                    <option value="sa">Pepino vidro G</option>
+                    <option value="sbc">Beterraba vidro P</option>
+                    <option value="scs">Beterraba vidro G</option>
+                    <option value="sa">Palmito vidro P</option>
+                    <option value="sbc">Palmito vidro G</option>
+                </select>
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Quantidade</div>
+        <div>
+            <input type="number" name="description" placeholder="Descreva o produto">
+        </div>
+    </div>
+    <button type="submit">Adicionar ao Pedido</button>
+    <button type="submit">Cadastrar Venda</button>
+
+</section>
+</form>
+
+
+{% endblock %}

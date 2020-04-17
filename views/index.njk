@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        {% block head %}
+        <title>Controle de Estoque </title>
+        {% endblock %}
+
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="links">
+                <a href="/cadastro">Cadastros</a>
+                <a href="/estoque">Estoque</a>
+                <a href="/entrada">Entrada Produtos</a>
+                <a href="/vendas">Vendas/Saidas</a>
+            </div>
+        </header>
+        
+        {% block content  %}
+        {% endblock %}
+
+    </body>
+</html>

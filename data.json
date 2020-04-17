@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pepino vidro pequeno"
+    },
+    {
+      "id": 2,
+      "name": "Pepino vidro grande"
+    },
+    {
+      "id": 3,
+      "name": "Beterraba vidro pequeno"
+    },
+    {
+      "id": 4,
+      "name": "Beterraba vidro grande"
+    },
+    {
+      "id": 5,
+      "name": "Brócolis vidro pequeno"
+    },
+    {
+      "id": 6,
+      "name": "Brócolis vidro grande"
+    },
+    {
+      "id": 7,
+      "name": "Cenoura vidro pequeno"
+    },
+    {
+      "id": 8,
+      "name": "Cenoura vidro grande"
+    },
+    {
+      "id": 9,
+      "name": "Palmito vidro pequeno"
+    }
+  ]
+}

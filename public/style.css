@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {  
+    background: #FFEFDB;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: white;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333333;
+    background: #CDC0B0;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a{
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.product {
+    background-color: FFEFDB;
+    width: 800px;
+    height: 400px;
+    margin: 45px auto;
+    border: 1px solid #333333
+}
+
+.product h3 {
+    padding-top: 18px;
+    text-align: center;
+}
+
+#item-selecionado {
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+    background-position: 370px center;  /*Posição da imagem do background*/
+    width: 400px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    border:1px solid #ddd;
+}
+
+.product h3,  
+.item div:nth-child(1) {
+    color: #333333;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+}
+
+.item div:nth-child(2) {
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item div,
+button {
+    padding-top: 10px;
+    margin-left: 200px;
+}
+
+/* CADASTRO DE PRODUTOS */
+
+input {
+    outline: none;
+    font-size: 18px;
+    width: 400px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    padding: 8px 32px;
+    background-color: #CDC9C9;
+    color: black;
+    border-radius: 4px;
+    margin-top: 32px;
+    width: 30%;
+    font-size: 16px;
+}
