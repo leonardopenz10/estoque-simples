@@ -29,3 +29,11 @@ exports.post  = function(req, res){
         return res.redirect("/cadastro")
     })
 }
+
+// Mostrar produtos cadastrados no estoque
+
+exports.show = function(req, res){
+
+    
+    return res.render("/estoque", { products })
+}
