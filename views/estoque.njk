@@ -2,5 +2,25 @@
 
 {% block content %}
 
+<div class="table-container">
+
+    <table width="80%">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for instructor in instructors %}
+            <tr>
+                <td>{{ products.name }}</td>
+                <td>{{ products.qtde }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
 
 {% endblock %}

@@ -96,3 +96,31 @@ button[type="submit"] {
     width: 30%;
     font-size: 16px;
 }
+
+/* TABELA DA PAGINA ESTOQUE */ 
+
+.table-container { 
+    display: block;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #FFEFDB;
+}
+
+.table-container table {
+    border-spacing: 0;
+    align-items: center;
+}
+
+.table-container thead tr th{
+    text-align: left;
+    color: black
+}
+
+td, th {
+    padding: 16px;
+    border-bottom: 1px solid black
+}
+/*Tirar a linha no ultimo elemento */
+tbody tr:last-child td {
+    border-bottom: none;
+}
